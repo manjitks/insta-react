@@ -1,11 +1,23 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Feed from './feed/feed'
+import Header from './header/header'
 
 export default function Home() {
   return (
-    <div>
-      <p className="text-3xl font-thin">Hello world!</p>
+    <div className="bg-gray-50 h-screen overflow-y-scroll">
+      <Head>
+      <title>Intsa clone</title>
+      </Head>
+      {/* HEADER */}
+      <Header/>
+
+      {/* FEED */}
+      <Feed/>
+
+      {/* MODAL */}
+
+
     </div>
   )
 }
