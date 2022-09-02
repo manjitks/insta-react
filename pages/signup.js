@@ -42,7 +42,7 @@ function SignUp() {
               <button
                 onClick={() => router.push("/")}
                 type="submit"
-                class="bg-green-400 w-64 h-10 rounded-full mt-10 shadow"
+                className="bg-green-400 w-64 h-10 rounded-full mt-10 shadow"
               >
                 Login
               </button>

@@ -19,7 +19,7 @@ export default function Sidebar() {
     <div className="md:hidden z-40">
       <div className="w-screen top-0 flex flex-row-reverse transform relative transition-all duration-1000 ">
         <div
-          //-----use a class to style base on state : active(true) or hidden(false)
+          //-----use a className to style base on state : active(true) or hidden(false)
           className={active ? activeSide : hiddenSide}
         >
           <MenuItems className="h-screen top-0" />
