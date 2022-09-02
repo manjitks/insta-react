@@ -4,7 +4,7 @@ import Header from "../../component/header/header";
 
 function index() {
   return (
-    <div>
+    <div className="bg-gray-50 h-screen overflow-y-scroll scrollbar-none">
       <Header />
       <Discover />
     </div>

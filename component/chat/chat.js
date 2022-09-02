@@ -1,18 +1,15 @@
-import React, { useState } from "react";
-
-import Header from "../../component/header/header";
+import Header from "../header/header";
 import ChatSidebar from "./chatSidebar";
 
 const activeSide = "flex flex-col flex-auto h-full p-6 hidden";
 const hiddenSide = "flex flex-col flex-auto h-full p-6 ";
 
 function Chat() {
-  const [active, setActive] = useState(false);
   return (
     <div className="flex h-screen antialiased text-gray-800">
       <div className="flex flex-row h-full w-full overflow-x-hidden">
         <ChatSidebar />
-        <div className={active ? activeSide : hiddenSide}>
+        <div className="flex flex-col flex-auto h-full p-6 ">
           <div className="flex flex-col flex-auto flex-shrink-0 rounded-2xl bg-gray-100 h-full p-4">
             <div className="flex flex-col h-full overflow-x-auto mb-4">
               <div className="flex flex-col h-full">

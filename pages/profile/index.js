@@ -5,7 +5,7 @@ import ProfileLayoutCss from "../../component/profiles/profileLayoutCss";
 
 export default function ProfileLayout() {
   return (
-    <div>
+    <div className="bg-gray-50 h-screen overflow-y-scroll scrollbar-none">
       <Common />
 
       <ProfileLayoutCss />
