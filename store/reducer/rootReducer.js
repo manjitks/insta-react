@@ -1,6 +1,5 @@
 import { combineReducers } from "redux";
 import modalReducer from "./modal/modalReducer";
-import sampleReducer from "./sample/sampleReducer";
 //import storage from 'redux-persist/lib/storage'
 //import { persistReducer} from 'redux-persist'
 

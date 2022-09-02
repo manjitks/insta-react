@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function profile() {
+export default function profile1() {
   return (
     <div>
       <nav className="border-b px-4 py-2 bg-white">
