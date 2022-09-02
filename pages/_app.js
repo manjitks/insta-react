@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import { wrapper, store } from "../store/store";
 import { Provider } from "react-redux";
+import Header from "../component/header/header";
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -1,19 +1,27 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
-    .navBtn {
-        @apply hidden h-6 md:inline-flex
+  .navBtn {
+    @apply hidden h-6 md:inline-flex
         cursor-pointer hover:scale-125 transition-all
         duration-100 ease-out;
-    }
+  }
 
-    .btn {
-        @apply h-8 
+  .navBtnSide {
+    @apply h-6 inline-flex mt-1 mx-1
         cursor-pointer hover:scale-125 transition-all
         duration-100 ease-out;
+  }
 
-    }
+  .btn {
+    @apply h-8 
+        cursor-pointer hover:scale-125 transition-all
+        duration-100 ease-out;
+  }
+
+  .instaBg {
+    @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+  }
 }

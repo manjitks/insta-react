@@ -10,11 +10,10 @@ export default function Home() {
   useEffect(() => {
     dispatch(getSampleData());
   }, [dispatch]);
-  console.log(sample)
+  // console.log(sample)
   return (
     <>
-
-      <Image layout="fill" src={sample.message}/>
+      <Image layout="fill" src={sample.message} />
     </>
   );
 }
