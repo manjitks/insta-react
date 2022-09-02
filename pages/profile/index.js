@@ -1,7 +1,6 @@
 import React from "react";
 import Common from "../../component/common/common";
-import common from "../../component/common/common";
-import Profile from "./Profile";
+import Profile from "../../component/profile/Profile";
 
 export default function profile() {
   return (
