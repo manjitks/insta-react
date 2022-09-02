@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Profile() {
+export default function ProfileLayoutCss() {
   return (
     <div>
       <main className="bg-gray-100 bg-opacity-25">

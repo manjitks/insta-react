@@ -1,13 +1,14 @@
 import React from "react";
+
 import Common from "../../component/common/common";
-import Profile from "../../component/profiles/profile";
+import ProfileLayoutCss from "../../component/profiles/profileLayoutCss";
 
 export default function ProfileLayout() {
   return (
     <div>
       <Common />
 
-      <Profile />
+      <ProfileLayoutCss />
     </div>
   );
 }
