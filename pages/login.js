@@ -38,7 +38,7 @@ function Login() {
         </div>
         <div className="max-w-sm  border mx-auto rounded overflow-hidden shadow-lg m-8 lg:m-20 p-5 lg:p-8 flex justify-center">
           <h2>
-            Don't have an account?
+            Don&apos;t have an account?
             <Link href="/signup">
               <a className="text-cyan-800 mx-2">SignUp</a>
             </Link>
