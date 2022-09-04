@@ -15,7 +15,7 @@ const middleware = [thunk, logger];
 
 const persistConfig = {
   key: "nextjs",
-  whitelist: ["modal"], // only counter will be persisted, add other reducers if needed
+  whitelist: ["modal", "auth"], // only counter will be persisted, add other reducers if needed
   storage, // if needed, use a safer storage
 };
 

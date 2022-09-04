@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
+import Common from "../component/common/common";
 import Feed from "../component/feed/feed";
 import Header from "../component/header/header";
 import Modal from "../component/modal/modal";
@@ -13,8 +14,7 @@ export default function Home() {
       <Head>
         <title>Intsa clone</title>
       </Head>
-      <Modal />
-      <Header />
+      <Common />
       <Feed />
     </div>
   );

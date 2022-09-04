@@ -5,12 +5,19 @@ import {
   PaperAirplaneIcon,
   PlusCircleIcon,
   UserGroupIcon,
+  LogoutIcon,
 } from "@heroicons/react/solid";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useDispatch } from "react-redux";
+import { doLogout } from "../../store/reducer/auth/authAction";
 
 function MenuItems() {
+  const dispatch = useDispatch();
+  const handleLogot = () => {
+    dispatch(doLogout());
+  };
   return (
     <aside className="w-64" aria-label="Sidebar">
       <div className="overflow-y-auto py-4 px-3 bg-gray-50 rounded instaBg">
@@ -69,12 +76,10 @@ function MenuItems() {
             </Link>
           </li>
           <li>
-            <Link href="/profile">
-              <div className="cursor-pointer">
-                <LinkIcon className="navBtnSide rotate-45" />
-                <span className="flex-1 ml-3 whitespace-nowrap">Link</span>
-              </div>
-            </Link>
+            <div className="cursor-pointer" onClick={handleLogot}>
+              <LogoutIcon className="navBtnSide rotate-45" />
+              <span className="flex-1 ml-3 whitespace-nowrap">Link</span>
+            </div>
           </li>
         </ul>
       </div>
